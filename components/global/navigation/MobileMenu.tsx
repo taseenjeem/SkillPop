@@ -10,7 +10,17 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { LogOut, Menu, ScanFace, Search, TableOfContents } from "lucide-react";
+import {
+  CircleDollarSign,
+  FileVideo,
+  Info,
+  LogOut,
+  Menu,
+  PhoneForwarded,
+  ScanFace,
+  Search,
+} from "lucide-react";
+import Link from "next/link";
 
 export default function MobileMenu() {
   return (
@@ -29,9 +39,49 @@ export default function MobileMenu() {
           <div className="w-full">
             <p className="mb-3 text-xs font-bold uppercase">General</p>
             <div className="flex flex-col gap-2">
-              <Button variant={"outline"} className="w-full" size={"sm"}>
-                <TableOfContents />
-                Courses
+              <Button
+                asChild
+                variant={"outline"}
+                className="w-full"
+                size={"sm"}
+              >
+                <Link href={"/pricing"}>
+                  <CircleDollarSign />
+                  Pricing
+                </Link>
+              </Button>
+              <Button
+                asChild
+                variant={"outline"}
+                className="w-full"
+                size={"sm"}
+              >
+                <Link href={"/courses"}>
+                  <FileVideo />
+                  Courses
+                </Link>
+              </Button>
+              <Button
+                asChild
+                variant={"outline"}
+                className="w-full"
+                size={"sm"}
+              >
+                <Link href={"/about-us"}>
+                  <Info />
+                  About Us
+                </Link>
+              </Button>
+              <Button
+                asChild
+                variant={"outline"}
+                className="w-full"
+                size={"sm"}
+              >
+                <Link href={"/contact-us"}>
+                  <PhoneForwarded />
+                  Contact Us
+                </Link>
               </Button>
               <Button variant={"outline"} className="w-full" size={"sm"}>
                 <Search />

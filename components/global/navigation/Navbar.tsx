@@ -19,6 +19,15 @@ export default function Navbar() {
             <Button asChild variant={"ghost"}>
               <Link href={"/courses"}>Courses</Link>
             </Button>
+            <Button asChild variant={"ghost"}>
+              <Link href={"/pricing"}>Pricing</Link>
+            </Button>
+            <Button asChild variant={"ghost"}>
+              <Link href={"/about-us"}>About Us</Link>
+            </Button>
+            <Button asChild variant={"ghost"}>
+              <Link href={"/contact-us"}>Contact Us</Link>
+            </Button>
             <Button asChild variant={"outline"}>
               <Link href={"#"}>
                 <Search />

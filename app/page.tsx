@@ -1,3 +1,9 @@
+import HeroSection from "@/components/pages/landing-page/Hero";
+
 export default function LandingPage() {
-  return <div className="h-screen"></div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }
