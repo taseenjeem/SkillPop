@@ -4,6 +4,7 @@ import "/styles/globals.css";
 import Navbar from "@/components/global/navigation/Navbar";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
+import Footer from "@/components/global/footer/Footer";
 
 const fontStyle = Karla({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
           >
             <Navbar />
             {children}
+            <Footer />
           </ThemeProvider>
         </body>
       </html>

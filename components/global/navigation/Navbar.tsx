@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ThemeToggler } from "@/components/ui/theme-toggler";
-import { ScanFace, Search } from "lucide-react";
+import { ChevronRight, ScanFace, Search } from "lucide-react";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
 
@@ -8,8 +8,11 @@ export default function Navbar() {
   return (
     <nav className="bg-background sticky top-0 z-50 border-b">
       <div className="box-container flex items-center justify-between py-2">
-        <Link href={"/"} className="text-primary text-2xl font-bold">
-          SkillPop
+        <Link href="/" className="flex items-center space-x-2">
+          <div className="bg-primary text-primary-foreground rounded-lg p-1">
+            <ChevronRight className="h-6 w-6" />
+          </div>
+          <span className="text-2xl font-bold">SkillPop</span>
         </Link>
         <span>
           <div className="hidden items-center gap-2 md:flex">
