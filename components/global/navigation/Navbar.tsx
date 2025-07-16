@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return (
-    <nav className="bg-background sticky top-0 z-50 border-b">
+    <nav className="bg-background fixed top-0 z-50 w-full border-b">
       <div className="box-container flex items-center justify-between py-2">
         <Link href="/" className="flex items-center space-x-2">
           <div className="bg-primary text-primary-foreground rounded-lg p-1">

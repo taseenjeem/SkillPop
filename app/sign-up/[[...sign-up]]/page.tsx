@@ -8,7 +8,7 @@ import AuthLoading from "@/components/global/loaders/AuthLoading";
 export default function SignUpPage() {
   return (
     <AuthLoading>
-      <section className="custom-h-screen w-full">
+      <section className="h-screen w-full">
         <div className="grid h-full w-full grid-cols-2">
           <div className="relative">
             <Image
