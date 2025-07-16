@@ -2,16 +2,13 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Mail, Phone, MapPin, ChevronRight } from "lucide-react";
 import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Mail,
-  Phone,
-  MapPin,
-  ChevronRight,
-} from "lucide-react";
+  FaSquareFacebook,
+  FaSquareInstagram,
+  FaSquareXTwitter,
+  FaLinkedin,
+} from "react-icons/fa6";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -56,10 +53,14 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { name: "Facebook", icon: Facebook, href: "https://facebook.com" },
-    { name: "Twitter", icon: Twitter, href: "https://twitter.com" },
-    { name: "Instagram", icon: Instagram, href: "https://instagram.com" },
-    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
+    { name: "Facebook", icon: FaSquareFacebook, href: "https://facebook.com" },
+    { name: "Twitter", icon: FaSquareXTwitter, href: "https://twitter.com" },
+    {
+      name: "Instagram",
+      icon: FaSquareInstagram,
+      href: "https://instagram.com",
+    },
+    { name: "LinkedIn", icon: FaLinkedin, href: "https://linkedin.com" },
   ];
 
   return (
