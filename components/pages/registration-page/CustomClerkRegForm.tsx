@@ -8,10 +8,12 @@ export default function CustomClerkRegForm() {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <SignUp
-      appearance={{
-        baseTheme: currentTheme === "dark" ? dark : undefined,
-      }}
-    />
+    <div className="my-16">
+      <SignUp
+        appearance={{
+          baseTheme: currentTheme === "dark" ? dark : undefined,
+        }}
+      />
+    </div>
   );
 }

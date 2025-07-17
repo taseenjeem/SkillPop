@@ -8,9 +8,9 @@ import AuthLoading from "@/components/global/loaders/AuthLoading";
 export default function SignUpPage() {
   return (
     <AuthLoading>
-      <section className="h-screen w-full">
-        <div className="grid h-full w-full grid-cols-2">
-          <div className="relative">
+      <section className="w-full lg:h-screen">
+        <div className="grid h-full w-full grid-cols-1 lg:grid-cols-2">
+          <div className="relative h-96 w-full lg:h-full">
             <Image
               src={signupImg}
               alt="SkillPop Sign Up Image"
@@ -18,16 +18,16 @@ export default function SignUpPage() {
             />
             <div className="from-background absolute bottom-0 h-96 w-full bg-gradient-to-t to-transparent p-5">
               <div className="absolute bottom-5 space-y-3">
-                <h1 className="text-3xl font-bold">
+                <h1 className="text-2xl font-bold md:text-3xl">
                   Join the Learning Revolution!
                 </h1>
-                <p>
+                <p className="text-sm md:text-base">
                   Create your SkillPop account and unlock a world of knowledge,
                   growth, and endless possibilities. Whether you&apos;re
                   starting a new skill or mastering an old one, we’ve got the
                   perfect courses for you.
                 </p>
-                <span>
+                <span className="text-sm md:text-base">
                   Already have an account?
                   <Button asChild variant={"link"} className="p-1">
                     <Link href={"/sign-in"}>Sign in </Link>

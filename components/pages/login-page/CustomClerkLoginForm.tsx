@@ -8,10 +8,12 @@ export default function CustomClerkLoginForm() {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <SignIn
-      appearance={{
-        baseTheme: currentTheme === "dark" ? dark : undefined,
-      }}
-    />
+    <div className="my-16">
+      <SignIn
+        appearance={{
+          baseTheme: currentTheme === "dark" ? dark : undefined,
+        }}
+      />
+    </div>
   );
 }
