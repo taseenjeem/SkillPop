@@ -227,7 +227,7 @@ export default function TestimonialCarousel() {
 
                     <p className="mb-4 grow text-sm">{tweet.content}</p>
 
-                    <div className="border-t pt-4">
+                    <div className="border-t pt-4 md:flex md:items-center md:justify-between">
                       <div className="text-muted-foreground mb-2 text-xs">
                         {tweet.date}
                       </div>
@@ -265,16 +265,14 @@ export default function TestimonialCarousel() {
       <div className="flex flex-col items-center space-y-6">
         <div className="flex items-center justify-center gap-4">
           <Button
-            variant="outline"
-            size="sm"
+            size="icon"
             className="h-9 w-9 rounded-full p-0"
             onClick={() => api?.scrollPrev()}
           >
             <ChevronLeft className="h-5 w-5" />
           </Button>
           <Button
-            variant="outline"
-            size="sm"
+            size="icon"
             className="h-9 w-9 rounded-full p-0"
             onClick={() => api?.scrollNext()}
           >

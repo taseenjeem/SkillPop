@@ -49,7 +49,7 @@ const learningFeatures = [
   },
 ];
 
-export function SkillBitesShowcase() {
+export default function SkillBitesShowcase() {
   return (
     <div className="py-16 sm:py-24">
       <div className="box-container">

@@ -24,7 +24,6 @@ export default function CreatorShowcase() {
             our bite-sized learning approach.
           </p>
         </div>
-
         <TestimonialCarousel />
       </div>
     </div>

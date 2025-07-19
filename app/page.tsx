@@ -1,7 +1,8 @@
 import CreatorShowcase from "@/components/pages/landing-page/CreatorShowcase";
 import CredibilityShowcase from "@/components/pages/landing-page/CredibilityShowcase";
 import HeroSection from "@/components/pages/landing-page/Hero";
-import { SkillBitesShowcase } from "@/components/pages/landing-page/SkillBitesShowcase";
+import SkillBitesShowcase from "@/components/pages/landing-page/SkillBitesShowcase";
+import RecommendedCourses from "@/components/pages/landing-page/RecommendedCourses";
 
 export default function LandingPage() {
   return (
@@ -10,6 +11,7 @@ export default function LandingPage() {
       <CredibilityShowcase />
       <SkillBitesShowcase />
       <CreatorShowcase />
+      <RecommendedCourses />
     </>
   );
 }
