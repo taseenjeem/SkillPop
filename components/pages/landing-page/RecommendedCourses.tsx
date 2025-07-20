@@ -3,7 +3,7 @@ import CourseCard from "@/components/ui/course-card";
 
 export default function RecommendedCourses() {
   return (
-    <section className="box-container">
+    <section className="box-container pb-16 md:pb-24">
       <div className="mb-12 text-center">
         <Badge
           variant="outline"
