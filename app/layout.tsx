@@ -13,7 +13,7 @@ const fontStyle = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "SkillPop",
+  title: "SkillPop - A new way to learn and grow.",
   description: "A new way to learn and grow.",
 };
 
