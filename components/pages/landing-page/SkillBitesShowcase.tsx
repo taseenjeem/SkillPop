@@ -64,7 +64,7 @@ export default function SkillBitesShowcase() {
           {learningFeatures.map((feature) => (
             <div
               key={feature.title}
-              className="hover:border-primary/50 bg-card flex cursor-pointer flex-col rounded-xl border p-6 transition-all hover:shadow-sm"
+              className="hover:border-primary/50 dark:bg-card bg-primary-foreground flex cursor-pointer flex-col rounded-xl border p-6 transition-all hover:shadow-sm"
             >
               <div className="bg-primary/10 mb-4 flex h-12 w-12 items-center justify-center rounded-full">
                 <feature.icon className="text-primary h-6 w-6" />

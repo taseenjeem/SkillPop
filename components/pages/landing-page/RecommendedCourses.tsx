@@ -25,6 +25,10 @@ export default function RecommendedCourses() {
         <CourseCard />
         <CourseCard />
         <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
       </div>
     </section>
   );

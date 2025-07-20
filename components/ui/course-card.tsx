@@ -9,7 +9,7 @@ import { Clock, Star, Users } from "lucide-react";
 export default function CourseCard() {
   return (
     <Link href={"#"} className="group">
-      <Card className="group-hover:border-primary duration-300">
+      <Card className="group-hover:border-primary dark:bg-card bg-primary-foreground duration-300">
         <CardHeader>
           <div className="relative mb-4 h-56 overflow-hidden rounded-lg">
             <Image
@@ -55,7 +55,7 @@ export default function CourseCard() {
               3,400+ Students
             </div>
           </div>
-          <div className="border-accent rounded-lg border p-2">
+          <div className="group-hover:border-primary rounded-lg border p-2 duration-300">
             <p className="text-center text-xl font-semibold">$19.99</p>
           </div>
         </CardContent>

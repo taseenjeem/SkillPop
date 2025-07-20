@@ -193,7 +193,7 @@ export default function TestimonialCarousel() {
                 key={tweet.id}
                 className="md:basis-1/2 lg:basis-1/3"
               >
-                <Card className="h-full border shadow-sm transition-all hover:shadow-md">
+                <Card className="dark:bg-card bg-primary-foreground h-full border shadow-sm transition-all hover:shadow-md">
                   <CardContent className="flex h-full flex-col">
                     <div className="mb-4 flex items-start justify-between">
                       <div className="flex items-center gap-3">
