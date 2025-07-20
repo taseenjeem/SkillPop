@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Clock,
   MonitorPlay,
@@ -7,7 +6,6 @@ import {
   BarChart2,
   BookOpen,
 } from "lucide-react";
-import Link from "next/link";
 import React from "react";
 
 const learningFeatures = [
@@ -75,12 +73,6 @@ export default function SkillBitesShowcase() {
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <Button asChild>
-            <Link href={"/sign-up"}>Start Your Learning Journey</Link>
-          </Button>
         </div>
       </div>
     </div>

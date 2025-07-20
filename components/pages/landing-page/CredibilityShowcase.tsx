@@ -33,7 +33,7 @@ const companies: Company[] = [
 export default function CredibilityShowcase() {
   return (
     <section id="logos">
-      <div className="box-container px-4 py-12 md:px-8">
+      <div className="box-container px-4 py-16 sm:py-24 md:px-8">
         <h3 className="text-center text-xl font-semibold tracking-widest text-gray-400 uppercase md:text-3xl">
           TRUSTED BY LEADING TEAMS
         </h3>

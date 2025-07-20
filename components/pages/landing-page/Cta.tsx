@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function LearningCTA() {
   return (
-    <div className="pb-16 md:pb-24">
+    <div className="py-16 sm:py-24">
       <div className="container mx-auto px-4 md:px-6 2xl:max-w-[1400px]">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           {/* Text Content */}

@@ -4,7 +4,7 @@ import TestimonialCarousel from "./TestimonialCarousel";
 
 export default function CreatorShowcase() {
   return (
-    <div className="pb-16 md:pb-24">
+    <div className="py-16 sm:py-24">
       <div className="box-container">
         <div className="mb-10 text-center">
           <div className="mb-3 inline-flex items-center gap-2">
