@@ -60,7 +60,7 @@ export default function SkillBitesShowcase() {
           Discover our unique approach to effective, engaging skill development
         </p>
 
-        <div className="mt-10 grid gap-6 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-3 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3">
           {learningFeatures.map((feature) => (
             <div
               key={feature.title}

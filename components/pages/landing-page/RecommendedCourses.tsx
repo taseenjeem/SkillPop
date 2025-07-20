@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import CourseCard from "@/components/ui/course-card";
 
 export default function RecommendedCourses() {
   return (
@@ -17,6 +18,13 @@ export default function RecommendedCourses() {
           Top-rated courses with industry-recognized certifications to advance
           your career.
         </p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
       </div>
     </section>
   );
